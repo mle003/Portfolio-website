@@ -1,0 +1,10 @@
+#header {
+  display: flex;
+  max-height: 60px;
+  align-items: center;
+}
+
+#logo {
+  margin-top: 5px;
+  /* margin-left: -36px; */
+}
