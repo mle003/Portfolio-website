@@ -1,7 +1,12 @@
-// import './styles/App.css';
 import { Helmet } from "react-helmet";
 import Header from './components/header';
-import Intro from "./components/intro";
+import Footer from "./components/footer";
+import Home from "./containers/Home";
+import Intro from "./containers/Intro"
+import Experience from "./containers/Experience";
+import TimeLine from "./containers/Timeline";
+import './styles/header.css'
+import './styles/App.css'
 
 function App() {
   return (
@@ -15,7 +20,11 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
+      <Home />
       <Intro />
+      <Experience />
+      <TimeLine />
+      <Footer />
     </div>
   );
 }
