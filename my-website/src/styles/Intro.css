@@ -90,3 +90,13 @@
 .btn.hover-border-11 span:hover::after {
   height: 0%;
 }
+
+.three {
+  background: linear-gradient(#0f0f0f, #b72321);
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.three:hover {
+  transform: scale(1.1, 1.1);
+}

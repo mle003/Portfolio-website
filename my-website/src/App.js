@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import Header from './components/header';
+import Header from "./components/header"
 import Footer from "./components/footer";
 import Home from "./containers/Home";
 import Intro from "./containers/Intro"
@@ -8,7 +8,7 @@ import TimeLine from "./containers/Timeline";
 import './styles/header.css'
 import './styles/App.css'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Helmet>

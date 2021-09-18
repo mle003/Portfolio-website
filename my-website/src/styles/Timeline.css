@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+.content > h2 {
+  font-weight: 700;
+}
 .timeline {
   position: relative;
 

@@ -7,7 +7,7 @@ import Suny from "../components/Exp-components/Suny";
 const Experience = () => {
   const [show, setShow] = useState(1)
   return (
-    <div style={{ backgroundColor: '#122b50' }} className='mt-20 text-left px-48 text-white'>
+    <div id='experience' style={{ backgroundColor: '#122b50' }} className='mt-20 text-left px-48 text-white'>
       <h1 className='mb-10 text-2xl font-bold text-white'>Experience</h1>
       <div className='flex text-center justify-center bg-white p-3 text-black mx-48 rounded-full'>
         <p onClick={() => setShow(1)} className='flex items-center mr-7 cursor-pointer'><img src='/images/hanpu.png' alt='Hanpu Technology' height={50} width={50} /> <span className='font-bold'>Hanpu Technology</span></p>

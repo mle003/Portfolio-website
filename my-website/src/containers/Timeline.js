@@ -3,7 +3,7 @@ import '../styles/Timeline.css'
 
 const TimeLine = () => {
   return (
-    <div className='mt-20 text-left px-48 text-black'>
+    <div id='timeline' className='mt-20 text-left px-48 text-black'>
       <h1 className='mb-10 mt-36 text-2xl font-bold text-white'>Life Events</h1>
       <div class="timeline">
         <div class="container left">
@@ -24,7 +24,7 @@ const TimeLine = () => {
 
             <h2>June 2018</h2>
 
-            <p>Start coding</p>
+            <p>Start learning programming</p>
 
           </div>
 
