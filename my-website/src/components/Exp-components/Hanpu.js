@@ -1,10 +1,11 @@
 import React from "react";
+import iHanpu from '../../images/hanpu.png'
 
 const Hanpu = () => {
   return (
     <div className='text-center'>
       <div className='mt-12'>
-        <img className='block mx-auto bg-white' src='/images/hanpu.png' alt='Hanpu Technology' />
+        <img className='block mx-auto bg-white' src={iHanpu} alt='Hanpu Technology' />
         <h2 className='text-3xl font-semibold mt-7'>Intern Front-end Engineer</h2>
         <h2 className='text-2xl'>Hanoi, Vietnam</h2>
         <h2 className='text-2xl'>May 2020 - August 2020</h2>

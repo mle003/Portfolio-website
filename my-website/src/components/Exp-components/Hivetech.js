@@ -1,10 +1,11 @@
 import React from "react";
+import iHivetech from '../../images/hivetech.png'
 
 const Hivetech = () => {
   return (
     <div className='text-center'>
       <div className='mt-12'>
-        <img className='block mx-auto bg-white' src='/images/hivetech.png' height={200} width={200} alt='Hanpu Technology' />
+        <img className='block mx-auto bg-white' src={iHivetech} height={200} width={200} alt='Hanpu Technology' />
         <h2 className='text-3xl font-semibold mt-7'>Front-end Developer</h2>
         <h2 className='text-2xl'>Hanoi, Vietnam</h2>
         <h2 className='text-2xl'>May 2021 - July 2021</h2>

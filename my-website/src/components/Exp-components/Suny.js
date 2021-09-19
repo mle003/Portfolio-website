@@ -1,10 +1,11 @@
 import React from "react";
+import iSuny from '../../images/plattsburgh.png'
 
 const Suny = () => {
   return (
     <div className='text-center'>
       <div className='mt-12'>
-        <img className='block mx-auto bg-white' src='/images/plattsburgh.png' height={200} width={200} alt='Hanpu Technology' />
+        <img className='block mx-auto bg-white' src={iSuny} height={200} width={200} alt='Hanpu Technology' />
         <h2 className='text-3xl font-semibold mt-7'>Teacher Assistant</h2>
         <h2 className='text-2xl'>Plattsburgh, NY</h2>
         <h2 className='text-2xl'>September 2021 - December 2021</h2>

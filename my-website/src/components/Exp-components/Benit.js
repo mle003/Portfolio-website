@@ -1,10 +1,11 @@
 import React from "react";
+import iBenit from '../../images/benit.png';
 
 const Benit = () => {
   return (
     <div className='text-center'>
       <div className='mt-12'>
-        <img className='block mx-auto bg-white' src='/images/benit.png' alt='Hanpu Technology' />
+        <img className='block mx-auto bg-white' src={iBenit} alt='Hanpu Technology' />
         <h2 className='text-3xl font-semibold mt-7'>Software Engineer</h2>
         <h2 className='text-2xl'>Hanoi, Vietnam</h2>
         <h2 className='text-2xl'>Novemver 2020 - Feb 2021</h2>

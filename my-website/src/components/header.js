@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../images/logo.png'
 import { Link } from 'react-scroll';
 import { LinkedinOutlined, GithubOutlined, FacebookOutlined } from '@ant-design/icons'
 
@@ -8,7 +9,7 @@ const Header = () => {
     <div className='items-center justify-between flex bg-gray-300 fixed top-0 w-screen py-2 mb-16 z-10 px-7'>
       <div className='flex items-center ml-5'>
         <div id='logo-container'>
-          <img src='/images/logo.png' alt='My logo' id="logo" />
+          <img src={logo} alt='My logo' id="logo" />
         </div>
         <div className='flex justify-between ml-3'>
           <Link to='home' smooth={true} duration={1000} className='mr-5'>
