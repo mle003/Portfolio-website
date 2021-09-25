@@ -91,3 +91,7 @@ a:hover {
     transform: translate(0px, 0px);
   }
 }
+
+#home {
+  background-image: url("../images/background2.PNG");
+}
